@@ -16,7 +16,7 @@ the_word = []
 for letter in short_word:
     the_word.append(letter)
 
-print(' '.join(the_word))
+# print(' '.join(the_word)) This prints the word.
 print('Starting Hangman')
 display = []
 for i in range(0, len(the_word)):
