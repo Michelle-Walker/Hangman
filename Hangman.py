@@ -59,7 +59,7 @@ while str(display) != str(the_word) and wrong_guess_count < 5 and tot_guess != t
                 print('LOSER!')
                 sys.exit()
         else:
-            print('fuck off')
+            print('Try again')
         if str(guess) != str(the_word) and wrong_guess_count < 5 and tot_guess != the_word:
             print(' '.join(display))
     check(user_guess)
